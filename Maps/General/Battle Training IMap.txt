@@ -1,0 +1,95 @@
+/// Options
+EditorVersion:1.0|Description:A remake of Feng's Battle Training map ~ <color=red>Redツ</color>|HasWeather:0
+/// CustomAssets
+
+/// Objects
+Scene,Geometry/Cuboid,0,0,1,1,0,0,BASEPLATE,0,-500,0,0,0,0,100,5,100,Physical,Entities,Default,Basic|255/255/255/255|Nature/Grass6|25/25|0/0,;
+Scene,General/EditorDaylight,1,0,1,1,0,0,Daylight,0,60,0,53.13011,126.8699,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Daylight|Color:255/255/255/255|Intensity:1|WeatherControlled:true|ShadowType:Soft|ShadowStrength:0.8;
+Scene,General/HumanReference,3,0,0,1,0,0,Human Reference,0,0.5,-133,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,;
+Scene,General/EditorHumanSpawnPoint,4,0,1,1,0,0,Human SpawnPoint,0,0.5,-133,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:HumanSpawnPoint;
+Scene,Geometry/Cube1,73,0,1,1,1,0,Cube1,0,-5.5,22,0,0,0,1000,10,1000,Physical,Characters,Default,Transparent|255/0/0/200|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
+Scene,Geometry/Cube1,74,0,1,1,1,0,Cube1,0,0,-7,0,0,0,170,1,156,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,75,0,1,1,1,0,Cube1,-81,28,-7,0,0,0,8,55,156,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,76,0,1,1,1,0,Cube1,81,28,-7,0,0,0,8,55,156,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,77,0,1,1,1,0,Cube1,0,28,68,0,0,0,170,55,6,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,78,0,1,1,1,0,Cube1,0,55,-112,0,0,0,170,1,56,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,79,0,1,1,1,0,Cube1,47,27,-112,0,0,0,76,55,56,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,80,0,1,1,1,0,Cube1,-47,27,-112,0,0,0,76,55,56,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,81,0,1,1,1,0,Cube1,0,0,-112,0,0,0,170,1,56,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,82,0,1,1,1,0,Cube1,0,28,-138.5,0,0,0,170,55,3,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,83,0,1,1,1,0,Cube1,0,9.5,-71.5,0,0,0,54,18,18,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,90,0,1,1,1,0,Cube1,-45.5,12,-29.25,0,0,0,14.5,23,17.5,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,91,0,1,1,1,0,Cube1,-45.5,12,32.25,0,0,0,14.5,23,17.5,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,92,0,1,1,1,0,Cube1,39.5,12,32.25,0,0,0,14.5,23,17.5,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,89,0,1,1,1,0,Cube1,39.5,12,-29.25,0,0,0,14.5,23,17.5,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,94,0,1,1,1,0,Cube1,1,17.5,1,0,0,0,14,34,18,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,General/EditorTitanSpawnPoint,112,0,1,1,0,0,Titan SpawnPoint,55,0.5,1,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:TitanSpawnPoint;
+Scene,General/EditorTitanSpawnPoint,101,0,1,1,0,0,Titan SpawnPoint,63.5,0.5,53.625,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:TitanSpawnPoint;
+Scene,General/EditorTitanSpawnPoint,102,0,1,1,0,0,Titan SpawnPoint,-63.5,0.5,53.625,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:TitanSpawnPoint;
+Scene,General/EditorTitanSpawnPoint,103,0,1,1,0,0,Titan SpawnPoint,-62,0.5,-65,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:TitanSpawnPoint;
+Scene,General/EditorTitanSpawnPoint,104,0,1,1,0,0,Titan SpawnPoint,62,0.5,-65,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:TitanSpawnPoint;
+Scene,General/EditorTitanSpawnPoint,111,0,1,1,0,0,Titan SpawnPoint,-55,0.5,1,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:TitanSpawnPoint;
+Scene,General/EditorTitanSpawnPoint,109,0,1,1,0,0,Titan SpawnPoint,1,0.5,32.25,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:TitanSpawnPoint;
+Scene,General/EditorTitanSpawnPoint,110,0,1,1,0,0,Titan SpawnPoint,1,0.5,-29.25,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:TitanSpawnPoint;
+Scene,Interact/Supply1,113,0,1,1,1,0,Supply1,7,0.5,-104.625,0,90,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,SupplyStation|UnlimitedRefills:true|MaxRefills:0|LoadoutChange:true
+/// Logic
+
+/// Weather
+{
+    "Skybox" : "Day1",
+    "SkyboxColor" : [
+        128,
+        128,
+        128,
+        255
+    ],
+    "Daylight" : [
+        255,
+        255,
+        255,
+        255
+    ],
+    "DaylightIntensity" : 1,
+    "DaylightDirection" : [
+        45,
+        45,
+        0
+    ],
+    "AmbientLight" : [
+        126,
+        122,
+        114,
+        255
+    ],
+    "Flashlight" : [
+        255,
+        255,
+        255,
+        0
+    ],
+    "FogDensity" : 0,
+    "FogColor" : [
+        128,
+        128,
+        128,
+        255
+    ],
+    "Rain" : 0,
+    "Thunder" : 0,
+    "Snow" : 0,
+    "Wind" : 0,
+    "WindDirection" : [
+        1,
+        0,
+        0
+    ],
+    "RainForce" : 0,
+    "SnowForce" : 0,
+    "WindForce" : 0,
+    "UseSchedule" : false,
+    "ScheduleLoop" : false,
+    "Schedule" : "",
+    "Name" : "Set 1",
+    "Preset" : false,
+    "UniqueId" : "502e1ac6-ce1b-4007-9d93-f4a9c2c64f99"
+}

@@ -1,0 +1,186 @@
+/// Options
+EditorVersion:1.0|Description:A remake of Feng's Cave Fight map ~ <color=red>Redツ</color>|HasWeather:0
+/// CustomAssets
+
+/// Objects
+Scene,Geometry/Cuboid,0,0,1,1,0,0,BASEPLATE,0,-25,0,0,0,0,100,5,100,None,Entities,Default,Basic|255/255/255/255|Nature/Grass6|25/25|0/0,;
+Scene,General/EditorDaylight,1,0,1,1,0,0,Daylight,0,20,0,53.13011,126.8699,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Daylight|;
+Scene,General/EditorHumanSpawnPoint,2,0,1,1,0,0,Human SpawnPoint,0,95.5,-130,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:HumanSpawnPoint;
+Scene,Geometry/Cube1,3,0,1,1,1,0,Ground,0,90.5,0,0,0,0,138,10,308,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,4,0,1,1,1,0,Ceiling,0,160.5,0,0,0,0,138,10,308,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,5,0,1,1,1,0,Wall,64,125.5,0,0,0,0,10,60,308,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,6,0,1,1,1,0,Wall,-64,125.5,0,0,0,0,10,60,308,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,7,0,1,1,1,0,Wall,0,125.5,-149,0,0,0,138,60,10,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,8,0,1,1,1,0,Wall,0,125.5,149,0,0,0,138,60,10,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Arc1a,10,0,1,1,1,0,WallCurve,-41,125.5,-126,0,0,0,60,120,60,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Arc1a,11,0,1,1,1,0,WallCurve,41,125.5,-126,0,270,0,60,120,60,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Arc1a,12,0,1,1,1,0,WallCurve,-44,125.5,129,0,90,0,60,120,60,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Arc1a,13,0,1,1,1,0,WallCurve,41,125.5,126,0,180,0,60,120,60,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Arc1a,14,0,1,1,1,0,WallCurve,-41,125.5,126,0,90,0,60,120,60,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cylinder1,15,0,1,1,1,0,Column,-14,125.5,-110,0,0,0,8,30,8,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cylinder1,16,0,1,1,1,0,Column,14,125.5,-110,0,0,0,8,30,8,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cylinder1,17,0,1,1,1,0,Column,19,125.5,-20,0,0,0,8,30,8,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cylinder1,18,0,1,1,1,0,Column,-19,125.5,-20,0,0,0,8,30,8,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cylinder1,19,0,1,1,1,0,Column,0,125.5,-70,0,0,0,8,30,8,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cylinder1,20,0,1,1,1,0,Column,17,125.5,20,0,0,0,8,30,8,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cylinder1,21,0,1,1,1,0,Column,-17,125.5,20,0,0,0,8,30,8,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cylinder1,22,0,1,1,1,0,Column,0,125.5,83,0,0,0,8,30,8,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cylinder1,23,0,1,1,1,0,Column,-44,125.5,-85,0,0,0,8,30,8,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cylinder1,24,0,1,1,1,0,Column,44,125.5,-85,0,0,0,8,30,8,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cylinder1,25,0,1,1,1,0,Column,-40,125.5,0,0,0,0,8,30,8,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cylinder1,26,0,1,1,1,0,Column,40,125.5,0,0,0,0,8,30,8,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cylinder1,27,0,1,1,1,0,Column,-44,125.5,64,0,0,0,8,30,8,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cylinder1,28,0,1,1,1,0,Column,44,125.5,64,0,0,0,8,30,8,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cylinder1,29,0,1,1,1,0,Column,36,125.5,114,0,0,0,8,30,8,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cylinder1,30,0,1,1,1,0,Column,-36,125.5,114,0,0,0,8,30,8,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,31,0,1,1,1,0,ColumnConeD,44,101.5,-85,0,0,0,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,34,0,1,1,1,0,ColumnConeD,-44,101.5,-85,0,0,0,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,35,0,1,1,1,0,ColumnConeD,-14,101.5,-110,0,0,0,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,36,0,1,1,1,0,ColumnConeD,14,101.5,-110,0,0,0,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,37,0,1,1,1,0,ColumnConeD,0,101.5,-70,0,0,0,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,38,0,1,1,1,0,ColumnConeD,19,101.5,-20,0,0,0,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,39,0,1,1,1,0,ColumnConeD,-19,101.5,-20,0,0,0,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,40,0,1,1,1,0,ColumnConeD,-17,101.5,20,0,0,0,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,41,0,1,1,1,0,ColumnConeD,17,101.5,20,0,0,0,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,42,0,1,1,1,0,ColumnConeD,40,101.5,0,0,0,0,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,43,0,1,1,1,0,ColumnConeD,-40,101.5,0,0,0,0,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,44,0,1,1,1,0,ColumnConeD,-44,101.5,64,0,0,0,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,45,0,1,1,1,0,ColumnConeD,44,101.5,64,0,0,0,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,46,0,1,1,1,0,ColumnConeD,-36,101.5,114,0,0,0,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,47,0,1,1,1,0,ColumnConeD,36,101.5,114,0,0,0,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,48,0,1,1,1,0,ColumnConeD,0,101.5,83,0,0,0,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,49,0,1,1,1,0,ColumnConeU,44,149.5,-85,0,0,180,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,50,0,1,1,1,0,ColumnConeU,-44,149.5,-85,0,0,180,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,51,0,1,1,1,0,ColumnConeU,-14,149.5,-110,0,0,180,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,52,0,1,1,1,0,ColumnConeU,14,149.5,-110,0,0,180,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,53,0,1,1,1,0,ColumnConeU,0,149.5,-70,0,0,180,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,54,0,1,1,1,0,ColumnConeU,19,149.5,-20,0,0,180,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,55,0,1,1,1,0,ColumnConeU,-19,149.5,-20,0,0,180,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,56,0,1,1,1,0,ColumnConeU,-17,149.5,20,0,0,180,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,57,0,1,1,1,0,ColumnConeU,17,149.5,20,0,0,180,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,58,0,1,1,1,0,ColumnConeU,40,149.5,0,0,0,180,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,59,0,1,1,1,0,ColumnConeU,-40,149.5,0,0,0,180,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,60,0,1,1,1,0,ColumnConeU,-44,149.5,64,0,0,180,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,61,0,1,1,1,0,ColumnConeU,44,149.5,64,0,0,180,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,62,0,1,1,1,0,ColumnConeU,-36,149.5,114,0,0,180,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,63,0,1,1,1,0,ColumnConeU,36,149.5,114,0,0,180,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cone1,64,0,1,1,1,0,ColumnConeU,0,149.5,83,0,0,180,14,12,14,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/Cube1,65,0,1,1,1,0,Cube1,0,105.5,142.5,0,0,0,3,20,3,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/GeoRamp1,66,0,1,1,1,0,GeoRamp1,0,95.5,127,0,90,0,28,40,3,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Interact/Supply1,67,0,1,1,1,0,Supply1,-55,95,-66,0,270,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,SupplyStation|UnlimitedRefills:true|MaxRefills:0|LoadoutChange:true;
+Scene,Interact/Supply1,68,0,1,1,1,0,Supply1,56,95,60,0,89.99998,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,SupplyStation|UnlimitedRefills:true|MaxRefills:0|LoadoutChange:true;
+Scene,Decor/TreeSupport1,104,0,1,1,1,0,Platform,13.21964,133,-106.0769,0,168.75,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,105,0,1,1,1,0,Platform,13.21964,145,-106.0769,0,168.75,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,106,0,1,1,1,0,Platform,-13.21964,145,-106.0769,0,191.25,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,107,0,1,1,1,0,Platform,-13.21964,133,-106.0769,0,191.25,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,108,0,1,1,1,0,Platform,0,145,-66,-1.35524E-14,180,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,109,0,1,1,1,0,Platform,0,133,-66,-1.35524E-14,180,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,110,0,1,1,1,0,Platform,-43.21964,145,-81.07686,0,191.25,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,111,0,1,1,1,0,Platform,-43.21964,133,-81.07686,0,191.25,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,112,0,1,1,1,0,Platform,43.21964,145,-81.07686,-5.088888E-14,168.75,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,113,0,1,1,1,0,Platform,43.21964,133,-81.07686,-5.088888E-14,168.75,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,114,0,1,1,1,0,Platform,17.46927,145,-16.30448,0,157.5,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,115,0,1,1,1,0,Platform,17.46927,133,-16.30448,0,157.5,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,116,0,1,1,1,0,Platform,-17.46927,145,-16.30448,0,202.5,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,117,0,1,1,1,0,Platform,-17.46927,133,-16.30448,0,202.5,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,118,0,1,1,1,0,Platform,-40,145,4,-1.35524E-14,180,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,119,0,1,1,1,0,Platform,-40,133,4,-1.35524E-14,180,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,120,0,1,1,1,0,Platform,40,145,4,-1.35524E-14,180,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,121,0,1,1,1,0,Platform,40,133,4,-1.35524E-14,180,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,122,0,1,1,1,0,Platform,15.46927,145,16.30448,1.017778E-13,22.50002,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,123,0,1,1,1,0,Platform,15.46927,133,16.30448,1.017778E-13,22.50002,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,124,0,1,1,1,0,Platform,-15.46927,145,16.30448,1.017778E-13,337.5,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,125,0,1,1,1,0,Platform,-15.46927,133,16.30448,1.017778E-13,337.5,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,126,0,1,1,1,0,Platform,-42.46926,133,67.69552,3.053333E-13,202.5,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,127,0,1,1,1,0,Platform,-42.46926,145,67.69552,3.053333E-13,202.5,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,128,0,1,1,1,0,Platform,42.46926,133,67.69552,0,157.5,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,129,0,1,1,1,0,Platform,42.46926,145,67.69552,0,157.5,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,130,0,1,1,1,0,Platform,0,133,87,-1.35524E-14,180,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,131,0,1,1,1,0,Platform,0,145,87,-1.35524E-14,180,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,132,0,1,1,1,0,Platform,32.67412,133,111.7777,-2.035555E-13,56.25002,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,133,0,1,1,1,0,Platform,32.67412,145,111.7777,-2.035555E-13,56.25002,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,134,0,1,1,1,0,Platform,-32.67412,133,111.7777,0,303.75,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Decor/TreeSupport1,135,0,1,1,1,0,Platform,-32.67412,145,111.7777,0,303.75,180,0.25,0.25,0.25,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,136,0,1,1,1,0,SmallWall,0,109,-144,22.5,0,0,50,10,5,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Arc1a,176,0,1,1,1,0,SmallWallCurve,-38,97,-128,22.5,0,0,60,40,60,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Arc1a,177,0,1,1,1,0,SmallWallCurve,38,97,-128,0,270,337.5,60,40,60,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,178,0,1,1,1,0,SmallWall,0,117.7,-144,0,0,0,33,10,7.5,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,179,0,1,1,1,0,SmallWall,0,141,-144,0,0,0,35,45,8.5,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,180,0,1,1,1,0,SmallWall,0,115.6,-140,0,0,0,35,5.9,0.5,Physical,Entities,Default,Basic|200/190/165/255|Misc/None|1/1|0/0,;
+Scene,Geometry/GeoRamp1c,181,0,1,1,1,0,GeoRamp1c,-17.5,137,-141.75,90,270,0,4,6,37,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,Geometry/GeoRamp1c,182,0,1,1,1,0,GeoRamp1c,17.5,137,-141.75,90,90.00002,0,4,6,37,Physical,Entities,Default,Default|200/190/165/255,;
+Scene,General/EditorHumanSpawnPointBlue,183,0,1,1,0,0,Human SpawnPoint (blue),-49,106,-122,0,0,0,0.5,0.5,0.5,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointBlue;
+Scene,General/EditorHumanSpawnPointBlue,184,0,1,1,0,0,Human SpawnPoint (blue),49,106,-122,0,0,0,0.5,0.5,0.5,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointBlue;
+Scene,General/EditorHumanSpawnPointRed,185,0,1,1,0,0,Human SpawnPoint (red),-17.5,133,-16,0,0,0,0.5,0.5,0.5,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointRed;
+Scene,General/EditorHumanSpawnPointRed,186,0,1,1,0,0,Human SpawnPoint (red),-40,145,4.5,0,0,0,0.5,0.5,0.5,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointRed;
+Scene,General/EditorHumanSpawnPointRed,187,0,1,1,0,0,Human SpawnPoint (red),42.5,145,68,0,0,0,0.5,0.5,0.5,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointRed;
+Scene,General/EditorHumanSpawnPointRed,188,0,1,1,0,0,Human SpawnPoint (red),-42.5,133,68,0,0,0,0.5,0.5,0.5,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointRed;
+Scene,General/EditorHumanSpawnPointRed,189,0,1,1,0,0,Human SpawnPoint (red),-42.5,145,68,0,0,0,0.5,0.5,0.5,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointRed;
+Scene,General/EditorHumanSpawnPointRed,190,0,1,1,0,0,Human SpawnPoint (red),40,133,4.5,0,0,0,0.5,0.5,0.5,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointRed;
+Scene,General/EditorHumanSpawnPointRed,191,0,1,1,0,0,Human SpawnPoint (red),17.5,133,-16,0,0,0,0.5,0.5,0.5,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointRed;
+Scene,General/EditorHumanSpawnPointRed,192,0,1,1,0,0,Human SpawnPoint (red),42.5,133,68,0,0,0,0.5,0.5,0.5,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointRed;
+Scene,General/EditorHumanSpawnPointRed,193,0,1,1,0,0,Human SpawnPoint (red),0,133,87.5,0,0,0,0.5,0.5,0.5,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointRed;
+Scene,General/EditorHumanSpawnPointRed,194,0,1,1,0,0,Human SpawnPoint (red),0,145,87.5,0,0,0,0.5,0.5,0.5,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointRed;
+Scene,General/EditorHumanSpawnPointRed,195,0,1,1,0,0,Human SpawnPoint (red),40,145,4.5,0,0,0,0.5,0.5,0.5,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointRed;
+Scene,General/EditorHumanSpawnPointRed,196,0,1,1,0,0,Human SpawnPoint (red),-40,133,4.5,0,0,0,0.5,0.5,0.5,None,Entities,Default,DefaultNoTint|255/255/255/255,Tag|Name:HumanSpawnPointRed
+/// Logic
+
+/// Weather
+{
+    "Skybox" : "Day1",
+    "SkyboxColor" : [
+        128,
+        128,
+        128,
+        255
+    ],
+    "Daylight" : [
+        255,
+        255,
+        255,
+        255
+    ],
+    "DaylightIntensity" : 1,
+    "DaylightDirection" : [
+        45,
+        45,
+        0
+    ],
+    "AmbientLight" : [
+        126,
+        122,
+        114,
+        255
+    ],
+    "Flashlight" : [
+        255,
+        255,
+        255,
+        0
+    ],
+    "FogDensity" : 0,
+    "FogColor" : [
+        128,
+        128,
+        128,
+        255
+    ],
+    "Rain" : 0,
+    "Thunder" : 0,
+    "Snow" : 0,
+    "Wind" : 0,
+    "WindDirection" : [
+        1,
+        0,
+        0
+    ],
+    "RainForce" : 0,
+    "SnowForce" : 0,
+    "WindForce" : 0,
+    "UseSchedule" : false,
+    "ScheduleLoop" : false,
+    "Schedule" : "",
+    "Name" : "Set 1",
+    "Preset" : false,
+    "UniqueId" : "c0ddfc83-d78c-4eb7-835e-d92ae764eb6d"
+}

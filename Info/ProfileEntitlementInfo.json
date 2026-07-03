@@ -1,0 +1,76 @@
+{
+	"PresetGuilds": [
+		{
+			"id": "aottg2_developer_team",
+			"label": "AoTTG 2 Team",
+			"requiredRoles": [ "aottg2-team" ]
+		},
+		{
+			"id": "supporter",
+			"label": "SUPPORTER",
+			"requiredPatreonTierIds": [ "*" ]
+		}
+	],
+	"Badges": [
+		{
+			"id": "2d_art",
+			"label": "2D Art",
+			"requiredRoles": [ "2d_art" ]
+		},
+		{
+			"id": "3d_art",
+			"label": "3D Art",
+			"requiredRoles": [ "3d_art" ]
+		},
+		{
+			"id": "dev",
+			"label": "Developer",
+			"requiredRoles": [ "developer" ]
+		},
+		{
+			"id": "donator",
+			"label": "Donator",
+			"requiredPatreonTierIds": [ "28767500", "28767505" ]
+		},
+		{
+			"id": "manager",
+			"label": "Manager",
+			"requiredRoles": [ "manager" ]
+		},
+		{
+			"id": "mapping",
+			"label": "Mapping",
+			"requiredRoles": [ "mapping" ]
+		},
+		{
+			"id": "media",
+			"label": "Media",
+			"requiredRoles": [ "media" ]
+		},
+		{
+			"id": "mod",
+			"label": "Moderator",
+			"requiredRoles": [ "moderator" ]
+		},
+		{
+			"id": "ricecake",
+			"label": "Ricecake",
+			"requiredRoles": [ "ricecake" ]
+		},
+		{
+			"id": "sound",
+			"label": "Sound",
+			"requiredRoles": [ "sound" ]
+		},
+		{
+			"id": "tester",
+			"label": "Tester",
+			"requiredRoles": [ "tester" ]
+		},
+		{
+			"id": "translation",
+			"label": "Translation",
+			"requiredRoles": [ "translation" ]
+		}
+	]
+}

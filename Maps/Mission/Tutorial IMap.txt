@@ -1,0 +1,390 @@
+/// Options
+EditorVersion:1.0|Description:A remake of Feng's Tutorial map ~ <color=red>Redツ</color>|HasWeather:0
+/// CustomAssets
+
+/// Objects
+Scene,Geometry/Cuboid,0,0,1,1,0,0,BASEPLATE,0,-500,0,0,0,0,100,5,100,Physical,Entities,Default,Basic|255/255/255/255|Nature/Grass6|25/25|0/0,;
+Scene,General/EditorDaylight,1,0,1,1,0,0,Daylight,0,20,0,53.13011,126.8699,0,1,1,1,None,Entities,Default,DefaultNoTint|255/255/255/255,Daylight|;
+Scene,Geometry/Cube1,2,0,1,1,1,0,Cube1,0,0,22,0,0,0,10,1,50,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,General/HumanReference,3,0,0,1,0,0,Human Reference,0,800.5,-133,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,;
+Scene,General/EditorHumanSpawnPoint,4,0,1,1,0,0,Human SpawnPoint,0,0.5,0,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:HumanSpawnPoint;
+Scene,Geometry/Cylinder1,5,0,1,1,1,0,Cylinder1,0,3.5,44,0,0,0,3,3,3,Physical,Characters,Default,Transparent|0/255/0/200|Misc/None|1/1|0/0,TeleportRegion|RelativePosition:false|Position:0/200.5/0|TeleportHumans:true|TeleportTitans:true|TeleportShifters:true;
+Scene,Geometry/Cube1,6,0,1,1,0,0,Cube1,0,-5.5,22,0,0,0,1000,10,1000,Physical,Characters,Default,Basic|0/255/255/255|Misc/None|1/1|0/0,TeleportRegion|RelativePosition:false|Position:0/0.5/0|TeleportHumans:true|TeleportTitans:true|TeleportShifters:true;
+Scene,Geometry/Cylinder1,12,0,1,1,1,0,Cylinder1,0,216,40,0,0,0,3,3,3,Physical,Characters,Default,Transparent|0/255/0/200|Misc/None|1/1|0/0,TeleportRegion|RelativePosition:false|Position:0/400.5/0|TeleportHumans:true|TeleportTitans:true|TeleportShifters:true;
+Scene,Geometry/Cube1,8,0,1,1,0,0,Cube1,0,194.5,22,0,0,0,1000,10,1000,Physical,Characters,Default,Basic|0/255/255/255|Misc/None|1/1|0/0,TeleportRegion|RelativePosition:false|Position:0/200.5/0|TeleportHumans:true|TeleportTitans:true|TeleportShifters:true;
+Scene,Geometry/Cube1,9,0,1,1,1,0,Cube1,0,202,17,0,0,0,10,5,12,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,10,0,1,1,1,0,Cube1,0,200,4,0,0,0,10,1,14,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,11,0,1,1,1,0,Cube1,0,206.5,33,0,0,0,10,13,20,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,13,0,1,1,0,0,Cube1,0,394.5,22,0,0,0,1000,10,1000,Physical,Characters,Default,Basic|0/255/255/255|Misc/None|1/1|0/0,TeleportRegion|RelativePosition:false|Position:0/400.5/0|TeleportHumans:true|TeleportTitans:true|TeleportShifters:true;
+Scene,Geometry/Cube1,16,0,1,1,1,0,Cube1,0,400,104.5,0,0,0,22,1,25,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,15,0,1,1,1,0,Cube1,0,400,9.5,0,0,0,10,1,25,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,17,0,1,1,1,0,Cube1,0,415,99,0,0,0,8,8,1,Physical,Entities,Default,Basic|255/165/80/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,18,0,1,1,1,0,Dot,-3.875,411.25,99,0,0,0,0.25,0.5,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,19,0,1,1,1,0,Dot,-3.875,418.75,99,0,0,0,0.25,0.5,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,20,0,1,1,1,0,Dot,3.875,418.75,99,0,0,0,0.25,0.5,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,21,0,1,1,1,0,Dot,3.875,411.25,99,0,0,0,0.25,0.5,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,22,0,1,1,1,0,Dot,-3.625,418.875,99,0,0,0,0.25,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,23,0,1,1,1,0,Dot,3.625,418.875,99,0,0,0,0.25,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,24,0,1,1,1,0,Dot,3.625,411.125,99,0,0,0,0.25,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,25,0,1,1,1,0,Dot,-3.625,411.125,99,0,0,0,0.25,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,26,0,1,1,1,0,Dot,-3.625,415,99,0,0,0,0.25,7,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,27,0,1,1,1,0,Dot,3.625,415,99,0,0,0,0.25,7,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,28,0,1,1,1,0,Dot,0,418.625,99,0,0,0,7,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,29,0,1,1,1,0,Dot,0,411.375,99,0,0,0,7,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,30,0,1,1,1,0,Dot,-3.375,411.75,99,0,0,0,0.25,0.5,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,31,0,1,1,1,0,Dot,-3.375,418.25,99,0,0,0,0.25,0.5,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,32,0,1,1,1,0,Dot,3.375,418.25,99,0,0,0,0.25,0.5,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,33,0,1,1,1,0,Dot,3.375,411.75,99,0,0,0,0.25,0.5,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,34,0,1,1,1,0,Dot,-3.125,411.625,99,0,0,0,0.25,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,35,0,1,1,1,0,Dot,3.125,411.625,99,0,0,0,0.25,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,36,0,1,1,1,0,Dot,3.125,418.375,99,0,0,0,0.25,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,37,0,1,1,1,0,Dot,-3.125,418.375,99,0,0,0,0.25,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,38,0,1,1,1,0,Dot,-2.75,416.875,99,0,0,0,0.5,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,39,0,1,1,1,0,Dot,-2.25,416.625,99,0,0,0,0.5,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,40,0,1,1,1,0,Dot,-1.75,416.375,99,0,0,0,0.5,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,41,0,1,1,1,0,Dot,-1.25,416.125,99,0,0,0,0.5,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,42,0,1,1,1,0,Dot,-0.875,415.875,99,0,0,0,0.25,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,43,0,1,1,1,0,Dot,-1.25,415.625,99,0,0,0,0.5,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,44,0,1,1,1,0,Dot,-1.75,415.375,99,0,0,0,0.5,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,45,0,1,1,1,0,Dot,-2.25,415.125,99,0,0,0,0.5,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,46,0,1,1,1,0,Dot,-2.75,414.875,99,0,0,0,0.5,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,47,0,1,1,1,0,Dot,0.875,415.875,99,0,0,0,0.25,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,48,0,1,1,1,0,Dot,1.25,416.125,99,0,0,0,0.5,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,49,0,1,1,1,0,Dot,1.25,415.625,99,0,0,0,0.5,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,50,0,1,1,1,0,Dot,1.75,415.375,99,0,0,0,0.5,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,51,0,1,1,1,0,Dot,1.75,416.375,99,0,0,0,0.5,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,52,0,1,1,1,0,Dot,2.25,416.625,99,0,0,0,0.5,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,53,0,1,1,1,0,Dot,2.25,415.125,99,0,0,0,0.5,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,54,0,1,1,1,0,Dot,2.75,414.875,99,0,0,0,0.5,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,55,0,1,1,1,0,Dot,2.75,416.875,99,0,0,0,0.5,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,56,0,1,1,1,0,Dot,0.625,413.375,99,0,0,0,0.25,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,57,0,1,1,1,0,Dot,0.875,413,99,0,0,0,0.25,0.5,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,58,0,1,1,1,0,Dot,0.875,413.75,99,0,0,0,0.25,0.5,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,59,0,1,1,1,0,Dot,-0.125,413.875,99,0,0,0,0.25,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,60,0,1,1,1,0,Dot,-0.125,412.875,99,0,0,0,0.25,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,61,0,1,1,1,0,Dot,0.375,414.125,99,0,0,0,0.75,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,62,0,1,1,1,0,Dot,0.375,412.625,99,0,0,0,0.75,0.25,1.001,Physical,Entities,Default,Basic|0/0/0/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cylinder1,65,0,1,1,1,0,Cylinder1,0,403.5,238.5,0,0,0,3,3,3,Physical,Characters,Default,Transparent|0/255/0/200|Misc/None|1/1|0/0,TeleportRegion|RelativePosition:false|Position:0/600.5/0|TeleportHumans:true|TeleportTitans:true|TeleportShifters:true;
+Scene,Geometry/Cube1,64,0,1,1,1,0,Cube1,0,400,219.5,0,0,0,15,1,45,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,69,0,1,1,0,0,Cube1,0,594.5,22,0,0,0,1000,10,1000,Physical,Characters,Default,Basic|0/255/255/255|Misc/None|1/1|0/0,TeleportRegion|RelativePosition:false|Position:0/600.5/0|TeleportHumans:true|TeleportTitans:true|TeleportShifters:true;
+Scene,Geometry/Cube1,67,0,1,1,1,0,Cube1,25.5,418,207.5,0,22.50001,0,12,12,6,Physical,Entities,Default,Basic|35/35/35/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,68,0,1,1,1,0,Cube1,-25.5,418,207.5,0,337.5,0,12,12,6,Physical,Entities,Default,Basic|35/35/35/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,70,0,1,1,1,0,Cube1,0,600,22,0,0,0,15,1,50,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cylinder1,71,0,1,1,1,0,Cylinder1,0,603.5,44,0,0,0,3,3,3,Physical,Characters,Default,Transparent|0/255/0/200|Misc/None|1/1|0/0,TeleportRegion|RelativePosition:false|Position:0/800.5/-133|TeleportHumans:true|TeleportTitans:true|TeleportShifters:true;
+Scene,Interact/Supply1,72,0,1,1,1,0,Supply1,5.5,600.35,21,0,90,0,1,1,1,Physical,Entities,Default,Default|255/255/255/255,SupplyStation|UnlimitedRefills:true|MaxRefills:0|LoadoutChange:true;
+Scene,Geometry/Cube1,73,0,1,1,1,0,Cube1,0,794.5,22,0,0,0,1000,10,1000,Physical,Characters,Default,Transparent|255/0/0/200|Misc/None|1/1|0/0,KillRegion|Team:None|KillHumans:true|KillTitans:true|KillShifters:true|KillMessage:Server;
+Scene,Geometry/Cube1,74,0,1,1,1,0,Cube1,0,800,-7,0,0,0,170,1,156,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,75,0,1,1,1,0,Cube1,-81,828,-7,0,0,0,8,55,156,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,76,0,1,1,1,0,Cube1,81,828,-7,0,0,0,8,55,156,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,77,0,1,1,1,0,Cube1,0,828,68,0,0,0,170,55,6,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,78,0,1,1,1,0,Cube1,0,855,-112,0,0,0,170,1,56,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,79,0,1,1,1,0,Cube1,47,827,-112,0,0,0,76,55,56,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,80,0,1,1,1,0,Cube1,-47,827,-112,0,0,0,76,55,56,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,81,0,1,1,1,0,Cube1,0,800,-112,0,0,0,170,1,56,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,82,0,1,1,1,0,Cube1,0,828,-138.5,0,0,0,170,55,3,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,83,0,1,1,1,0,Cube1,0,809.5,-71.5,0,0,0,54,18,18,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,90,0,1,1,1,0,Cube1,-45.5,812,-29.25,0,0,0,14.5,23,17.5,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,91,0,1,1,1,0,Cube1,-45.5,812,32.25,0,0,0,14.5,23,17.5,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,92,0,1,1,1,0,Cube1,39.5,812,32.25,0,0,0,14.5,23,17.5,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,89,0,1,1,1,0,Cube1,39.5,812,-29.25,0,0,0,14.5,23,17.5,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,Geometry/Cube1,94,0,1,1,1,0,Cube1,1,817.5,1,0,0,0,14,34,18,Physical,Entities,Default,Basic|120/145/160/255|Misc/None|1/1|0/0,;
+Scene,General/EditorTitanSpawnPoint,112,0,1,1,0,0,Titan SpawnPoint,55,800.5,1,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:TitanSpawnPoint;
+Scene,General/EditorTitanSpawnPoint,101,0,1,1,0,0,Titan SpawnPoint,63.5,800.5,53.625,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:TitanSpawnPoint;
+Scene,General/EditorTitanSpawnPoint,102,0,1,1,0,0,Titan SpawnPoint,-63.5,800.5,53.625,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:TitanSpawnPoint;
+Scene,General/EditorTitanSpawnPoint,103,0,1,1,0,0,Titan SpawnPoint,-62,800.5,-65,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:TitanSpawnPoint;
+Scene,General/EditorTitanSpawnPoint,104,0,1,1,0,0,Titan SpawnPoint,62,800.5,-65,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:TitanSpawnPoint;
+Scene,General/EditorTitanSpawnPoint,111,0,1,1,0,0,Titan SpawnPoint,-55,800.5,1,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:TitanSpawnPoint;
+Scene,General/EditorTitanSpawnPoint,109,0,1,1,0,0,Titan SpawnPoint,1,800.5,32.25,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:TitanSpawnPoint;
+Scene,General/EditorTitanSpawnPoint,110,0,1,1,0,0,Titan SpawnPoint,1,800.5,-29.25,0,0,0,1,1,1,None,Entities,Default,Default|255/255/255/255,Tag|Name:TitanSpawnPoint
+/// Logic
+class Main
+{
+    ####################
+    # SCRIPT VARIABLES #
+    ####################
+
+    _char = null;
+    _hasReachedArena = false;
+    _hasHostSpawnedTitan = false;
+
+    _s1m1 = null;
+    _s1m2 = null;
+    _s1m3 = null;
+    _s2m1 = null;
+    _s2m2 = null;
+    _s3m1 = null;
+    _s3m2 = null;
+    _s3m3 = null;
+    _s4m1 = null;
+    _s4m2 = null;
+    _s5m1 = null;
+    _s5m2 = null;
+
+    #####################################
+    # CORE FUNCTION : ON INITIALIZATION #
+    #####################################
+
+    function Init()
+    {
+        self.DefineMessages();
+    }
+
+    ######################################
+    # CORE FUNCTION : ON NETWORK MESSAGE #
+    ######################################
+
+    function OnNetworkMessage(senderPlayer, message)
+    {
+        if (Network.IsMasterClient)
+        {
+            if (message == "SPAWN_TITAN")
+            {
+                if (!self._hasHostSpawnedTitan)
+                {
+                    self._hasHostSpawnedTitan = true;
+                    Game.SpawnTitan("Normal");
+                }
+            }   
+        }
+    }
+
+    ######################################
+    # CORE FUNCTION : ON CHARACTER SPAWN #
+    ######################################
+
+    function OnCharacterSpawn(character)
+    {
+        if (character.IsMainCharacter)
+        {
+            self._char = character;
+        }
+    }
+
+    ####################################
+    # CORE FUNCTION : ON CHARACTER DIE #
+    ####################################
+
+    function OnCharacterDie(character)
+    {
+        if (character.Type == "Titan")
+        {
+            if (character.IsAI)
+            {
+                if (!Game.IsEnding)
+                {
+                    Game.End(9.0);
+                    UI.SetLabel("MiddleCenter", "Humanity Win!");
+                }
+            }
+        }
+        elif (character.Type == "Human")
+        {
+            if (Game.Humans.Count < 1)
+            {
+                if (!Game.IsEnding)
+                {
+                    Game.End(9.0);
+                    UI.SetLabel("MiddleCenter", "Humanity Fail!" + String.Newline + "Again!");
+                }
+            }
+        }
+    }
+
+    ###########################
+    # CORE FUNCTION : ON TICK #
+    ###########################
+
+    function OnTick()
+    {
+        self.UpdateGamemodeUI();
+        if (self._char != null && Network.MyPlayer.Status == "Alive")
+        {
+            self.SendTip(self._char);
+            if (self.GetLevel(self._char) == 5)
+            {
+                if (!self._hasReachedArena)
+                {
+                    self._hasReachedArena = true;
+                    Network.MyPlayer.SpawnPoint = Vector3(0, 800.5, -133);
+                    Network.SendMessage(Network.MasterClient, "SPAWN_TITAN");
+                }
+            }
+        }
+    }
+
+    #####################################
+    # CUSTOM FUNCTION : DEFINE MESSAGES #
+    #####################################
+
+    function DefineMessages()
+    {
+        self._s1m1 = "Hello soldier!" + String.Newline + "Welcome to Attack On Titan Tribute Game!" + String.Newline + "Press <color=#FFC42E>" + Input.GetKeyName("General/Forward") + Input.GetKeyName("General/Left") + Input.GetKeyName("General/Back") + Input.GetKeyName("General/Right") + "</color> to Move.";
+        self._s1m2 = "Press <color=#FFC42E>" + Input.GetKeyName("General/ChangeCamera") + "</color> to change camera mode" + String.Newline + "Press <color=#FFC42E>" + Input.GetKeyName("General/HideCursor") + "</color> to hide or show the cursor.";
+        self._s1m3 = "Move to <color=lime>green warp point</color> to proceed.";
+        self._s2m1 = "Press <color=#FFC42E>" + Input.GetKeyName("Human/Jump") + "</color> to Jump.";
+        self._s2m2 = "Press <color=#FFC42E>" + Input.GetKeyName("General/Forward") + "</color> towards a wall to perform a wall-run.";
+        self._s3m1 = "Press and Hold <color=#FFC42E>" + Input.GetKeyName("Human/HookLeft") + "</color> or <color=#FFC42E>" + Input.GetKeyName("Human/HookRight") + "</color> to launch your grapple." + String.Newline + "Now Try hooking to the [>3<] box.";
+        self._s3m2 = "Press and Hold <color=#FFC42E>" + Input.GetKeyName("Human/HookBoth") + "</color> to launch both of your grapples at the same Time." + String.Newline + String.Newline + "Now aim between the two black blocks." + String.Newline + "You will see the mark '<' and '>' appearing on the blocks." + String.Newline + "Then press <color=#FFC42E>" + Input.GetKeyName("Human/HookBoth") + "</color> to hook the blocks.";
+        self._s3m3 = "Move to <color=lime>green warp point</color> to proceed.";
+        self._s4m1 = "Press <color=#FFC42E>" + Input.GetKeyName("Human/Reload") + "</color> to reload your blades." + String.Newline + "Move to the supply station to refill your gas and blades.";
+        self._s4m2 = "Move to <color=lime>green warp point</color> to proceed.";
+        self._s5m1 = "Press <color=#FFC42E>" + Input.GetKeyName("Human/Dodge") + "</color> to Dodge.";
+        self._s5m2 = "Press <color=#FFC42E>" + Input.GetKeyName("Human/AttackDefault") + "</color> to Attack." + String.Newline + "Press <color=#FFC42E>" + Input.GetKeyName("Human/AttackSpecial") + "</color> to use special attack." + String.Newline + "***You can only kill a titan by slashing his <color=red>NAPE</color>.***";
+    }
+
+    ###############################
+    # CUSTOM FUNCTION : GET LEVEL #
+    ###############################
+
+    function GetLevel(char)
+    {
+        if (char.Position.Y > -1 && char.Position.Y < 199) {return 1;}
+        elif (char.Position.Y > 199 && char.Position.Y < 399) {return 2;}
+        elif (char.Position.Y > 399 && char.Position.Y < 599) {return 3;}
+        elif (char.Position.Y > 599 && char.Position.Y < 799) {return 4;}
+        else {return 5;}
+    }
+
+    ########################################
+    # CUSTOM FUNCTION : UPDATE GAMEMODE UI #
+    ########################################
+    
+    function UpdateGamemodeUI()
+    {
+        UI.SetLabel("TopCenter", "Titans Left: " + Game.Titans.Count);
+    }
+
+    ##############################
+    # CUSTOM FUNCTION : SEND TIP #
+    ##############################
+
+    function SendTip(char)
+    {
+        if (!Game.IsEnding)
+        {
+            if (self.GetLevel(char) == 1)
+            {
+                if (char.Position.Z < 12) {UI.SetLabel("MiddleCenter", self._s1m1);}
+                elif (char.Position.Z >= 12 && char.Position.Z < 30) {UI.SetLabel("MiddleCenter", self._s1m2);}
+                elif (char.Position.Z >= 30) {UI.SetLabel("MiddleCenter", self._s1m3);}
+            }
+            elif (self.GetLevel(char) == 2)
+            {
+                if (char.Position.Z < 11) {UI.SetLabel("MiddleCenter", self._s2m1);}
+                elif (char.Position.Z >= 11) {UI.SetLabel("MiddleCenter", self._s2m2);}
+            }
+            elif (self.GetLevel(char) == 3)
+            {
+                if (char.Position.Z < 92) {UI.SetLabel("MiddleCenter", self._s3m1);}
+                elif (char.Position.Z >= 92 && char.Position.Z < 197) {UI.SetLabel("MiddleCenter", self._s3m2);}
+                if (char.Position.Z >= 197) {UI.SetLabel("MiddleCenter", self._s3m3);}
+            }
+            elif (self.GetLevel(char) == 4)
+            {
+                if (char.Position.Z < 22) {UI.SetLabel("MiddleCenter", self._s4m1);}
+                elif (char.Position.Z >= 22) {UI.SetLabel("MiddleCenter", self._s4m2);}
+            }
+            elif (self.GetLevel(char) == 5)
+            {
+                if (char.Position.Z < -88) {UI.SetLabel("MiddleCenter", self._s5m1);}
+                elif (char.Position.Z >= -88) {UI.SetLabel("MiddleCenter", self._s5m2);}
+            }
+            else
+            {
+                if (!Game.IsEnding) {UI.SetLabel("MiddleCenter", "");}
+            }
+        }
+    }
+
+    ############################################
+    # CUSTOM COROUTINE : LOOP THROUGH MESSAGES #
+    ############################################
+
+    coroutine LoopThroughMessages()
+    {
+        UI.SetLabel("MiddleCenter", self._s1m1);
+        wait 5.0;
+        UI.SetLabel("MiddleCenter", self._s1m2);
+        wait 5.0;
+        UI.SetLabel("MiddleCenter", self._s1m3);
+        wait 5.0;
+        UI.SetLabel("MiddleCenter", self._s2m1);
+        wait 5.0;
+        UI.SetLabel("MiddleCenter", self._s2m2);
+        wait 5.0;
+        UI.SetLabel("MiddleCenter", self._s3m1);
+        wait 5.0;
+        UI.SetLabel("MiddleCenter", self._s3m2);
+        wait 5.0;
+        UI.SetLabel("MiddleCenter", self._s3m3);
+        wait 5.0;
+        UI.SetLabel("MiddleCenter", self._s4m1);
+        wait 5.0;
+        UI.SetLabel("MiddleCenter", self._s4m2);
+        wait 5.0;
+        UI.SetLabel("MiddleCenter", self._s5m1);
+        wait 5.0;
+        UI.SetLabel("MiddleCenter", self._s5m2);
+        wait 5.0;
+        UI.SetLabel("MiddleCenter", "");
+    }
+}
+/// Weather
+{
+    "Skybox" : "Day1",
+    "SkyboxColor" : [
+        128,
+        128,
+        128,
+        255
+    ],
+    "Daylight" : [
+        255,
+        255,
+        255,
+        255
+    ],
+    "DaylightIntensity" : 1,
+    "DaylightDirection" : [
+        45,
+        45,
+        0
+    ],
+    "AmbientLight" : [
+        126,
+        122,
+        114,
+        255
+    ],
+    "Flashlight" : [
+        255,
+        255,
+        255,
+        0
+    ],
+    "FogDensity" : 0,
+    "FogColor" : [
+        128,
+        128,
+        128,
+        255
+    ],
+    "Rain" : 0,
+    "Thunder" : 0,
+    "Snow" : 0,
+    "Wind" : 0,
+    "WindDirection" : [
+        1,
+        0,
+        0
+    ],
+    "RainForce" : 0,
+    "SnowForce" : 0,
+    "WindForce" : 0,
+    "UseSchedule" : false,
+    "ScheduleLoop" : false,
+    "Schedule" : "",
+    "Name" : "Set 1",
+    "Preset" : false,
+    "UniqueId" : "502e1ac6-ce1b-4007-9d93-f4a9c2c64f99"
+}
